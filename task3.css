@@ -1,0 +1,59 @@
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+div .header{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+ .big{
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 30px;
+}
+p{
+    width: 40%;
+    text-align: left;
+    margin-left: 0px ;
+}
+
+div .pic{
+    display: grid;
+    grid-template-columns: 220px 220px 1fr ;
+    gap: 35px;
+    margin-left: 25px;
+}
+
+div #image1{
+    background-image: url(img1.jpg);
+    max-width: 100%;
+    height: auto;
+}
+
+div #image2{
+   position: relative;
+   bottom: 220px;
+  
+}
+
+div #image3{
+    position: relative;
+    bottom: 130px;
+  
+}
+div #image4{
+    position: relative;
+    top: 20px;
+    right: 0px;
+    
+}
